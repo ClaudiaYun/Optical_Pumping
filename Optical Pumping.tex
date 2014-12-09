@@ -6,6 +6,7 @@
 \usepackage{amsfonts} % needed for bold Greek, Fraktur, and blackboard bold
 \usepackage{graphicx} % needed for figures
 \usepackage{tabularx}
+\usepackage{color}
 
 \begin{document}
 
@@ -26,13 +27,15 @@
 %____________abstract____________________________________________
 
 \begin{abstract}
-
+\textcolor{red}{there's nothing here! That's NOT what I call a full first draft. Once you write, make sure it is self-contained, and has specific results. I'm very strict about abstracts. sorry I can't give you feedback on this one! }
 \end{abstract}
 
 \maketitle 
 
 %____________Introduction____________________________________________
 \section{Introduction}
+
+\textcolor{blue}{in the interests of time, I'm not making detailed comments on the Introduction}
 
 In quantum mechanics, hydrogen-like atoms, i.e. atoms with only one valence electron, are modeled such that the outmost electron can only exist in some discrete energy levels. These orbits are described by quantum numbers $n$ and $l$, where $n=1, 2, ...$ and $l=s, p, d, f, ...$, denoting the energy and orbital angular momentum of the electron. However, this model does not consider the spin of the electron. When the spin is taken into account, each energy level will split into two due to the coupling effect between the spin and the orbital angular momentum of the electron. This is known as the fine structure. The summation $J=L+S$ is the total angular momentum, where $S$ is the electron spin and $L$ is the orbital angular momentum. If the spin of the nucleus $I$ is also considered, each fine-structure level will again split. And the atom will have a total angular momentum $F=I+J$. This is also known as the hyperfine structure. Finally, when a relatively weak external magnetic field is applied, each $F$ level splits into different $M$ levels with spacing proportional to the strength of the field. This splitting is known as the Zeeman effect. The Zeeman splitting is given by
 
@@ -73,6 +76,8 @@ When a photon with the right energy to excite the electron from level $1s$ to $2
 
 In out experiment, a right-circularly-polarized laser beam with the right frequency to excite electrons from ground state to first excited state passes through some Rubidium vapor and is then detected by a photodiode. Because of the polarization of the photons, transitions induced all have $\Delta M=1$. The average emissions have average $\Delta M=0$, so very quickly all the electrons will be "pumped" up to the highest $M$ level. When that happens, the Rubidium vapor is unable to absorb any more photon, which means that it has become transparent to the laser beam. Then an RF (Radio Frequency) signal is introduced into the system. When the RF signal has the exact energy between the Zeeman splitting, it "depumps" the electrons from the highest $M$ level down, and the Rubidium vapor can absorb photons again, which will cause a sudden decrease in the intensity of the laser beam detected by the photodiode. \\
 
+\textcolor{blue}{this next paragraph should follow immediately after Eq.~\eqref{zeeman} or perhaps right after Eq.4.  }
+
 From Eq. \eqref{zeeman} it can be seen that $E_{z}$ is linearly proportional to $B$. By changing the RF signal, which will match $E_{z}$, and the magnetic field $B$, we could find out the coupling constant $g_{F}$ for Rubidium.\\
 
 %____________Experiment____________________________________________
@@ -107,7 +112,24 @@ I=\frac{V_{sweep}/gain}{R}
 \label{vtoi}
 \end{equation}
 
-R is the sense resistor, which is $1 \Omega$. $N=11$ is the number of wires wrapped on each side and$R_{coil}=0.1639m$ is the average radius of the loop. Gain is 10 in this experiment. \\
+\textcolor{blue}{don't write out gain in italics. Either spell it out in roman text or use a variable such as G.} 
+
+
+
+\begin{equation*}
+I=\frac{V_{sweep}/G}{R}
+\label{vtoi}
+\end{equation*}
+
+\begin{equation*}
+I=\frac{V_{sweep}/{\textrm{Gain}}}{R}
+\label{vtoi}
+\end{equation*}
+
+
+\textcolor{red}{where G is the gain} and R is the sense resistor, which is $1 \Omega$. $N=11$ is the number of wires wrapped on each side and$R_{coil}=0.1639m$ is the average radius of the loop. Gain is 10 in this experiment. 
+
+\textcolor{blue}{this is only true \textbf{if you measure the voltage across the sense resistor}, labeled ``monitor'' on the output panel. If you use the \textbf{recorder output} (as you actually did), the voltage is approximately 3x larger, as I've noted in my recent email to you showing the location and width of the zero field dip after adjusting the magnet coils and apparatus orientation with respect to the Earth's field. This is probably the source of your 3x error below. You should measure this exactly by comparing the two voltages.}  \\
 
 \begin{figure}[h]
 \centering
@@ -124,7 +146,10 @@ R is the sense resistor, which is $1 \Omega$. $N=11$ is the number of wires wrap
 \label{20kHz}
 \end{figure}
 
-Fig. \ref{100kHz} and Fig. \ref{20kHz} are two of the plots after the horizontal sweep voltage is converted to magnetic field strength. The first dip is where zero field transition happens, the first dip is where the  $^8$$^7$Rb transition happens and the second dip is the $^8$$^5$Rb transition. The difference between the zero field transition and the Rb transition is calculated to find the true magnetic field that is resonant with a given RF frequency. The resonant magnetic field is found for both $^8$$^7$Rb and $^8$$^5$Rb at RF frequency varying from 10kHz to 100kHz with a step size of 10kHz, and is also plotted versus the RF frequencies. Table. \ref{data} shows the positions of the dips and the resonant fields with uncertainties. Fig. \ref{both} shows the plot, from which it can be seen that resonant magnetic field and RF frequencies have a linear relationship. The different depth of the dips are caused by different amount of $^8$$^7$Rb and $^8$$^5$Rb in nature. There is more $^8$$^5$Rb than $^8$$^7$Rb, so the second dip is deeper. However, the photodiode voltage is not used for any calculation in this experiment. So we will not analyze it in detail.
+Fig. \ref{100kHz} and Fig. \ref{20kHz} are two of the plots after the horizontal sweep voltage is converted to magnetic field strength. The first dip is where zero field transition happens, the first dip is where the  $^8$$^7$Rb transition happens and the second dip is the $^8$$^5$Rb transition. The difference between the zero field transition and the Rb transition is calculated to find the true magnetic field that is resonant with a given RF frequency. The resonant magnetic field is found for both $^8$$^7$Rb and $^8$$^5$Rb at RF frequency varying from 10kHz to 100kHz with a step size of 10kHz, and is also plotted versus the RF frequencies. 
+
+\textcolor{blue}{I suggest putting Fig 5 ahead of the tables, since otherwise it is too far away from the discussion of the figure in the text, and the data tables are just for reference information}. 
+Table. \ref{data} shows the positions of the dips and the resonant fields with uncertainties. Fig. \ref{both} shows the plot, from which it can be seen that resonant magnetic field and RF frequencies have a linear relationship. The different depth of the dips are caused by different amount of $^8$$^7$Rb and $^8$$^5$Rb in nature. There is more $^8$$^5$Rb than $^8$$^7$Rb, so the second dip is deeper. However, the photodiode voltage is not used for any calculation in this experiment. So we will not analyze it in detail.
 
 \begin{table}[h]
 \centering
@@ -204,6 +229,8 @@ g_{F}=\frac{\mu_{0}}{h} \times \frac{1}{Slope}
 \label{gf}
 \end{equation}
 
+\textcolor{red}{the word ``Slope'' in italics instead of as a symbol or a math expression? ugh!} 
+
 $g_{F}$ is found to be $0.1708\pm0.0004$ for $^8$$^7$Rb and $0.1141\pm0.0002$ for $^8$$^5$Rb where the expected values are 1/2 and 1/3.
 
 
@@ -217,6 +244,9 @@ The first possibility that could cause this discrepancy is that there is an unkn
 B_{true}^{2}=B^{2}+B_{unknown}^{2}
 \label{bnew}
 \end{equation}
+
+\textcolor{blue}{this equation doesn't make any sense to me.} $(B + B_0)^2 \neq B^2 + {B_0}^2$!   \textcolor{blue}{If you are saying you need to measure the true magnetic field by redefining B to be zero where you see the zero field dip, yes, absolutely. So then} $B = B_{\textrm{nominal}} - B_{\textrm{zero}}$, and $B^2 = (B_{\textrm{nominal}} - B_{\textrm{zero}})^2$, \textcolor{blue}{where based on your figures,} $B_{\textrm{zero}} = -0.34 G$  (approximately). \textcolor{blue}{but why do you want }$B^2$ \textcolor{blue}{anyway?}
+
 
 where B is the magnetic field value we are currently using. To test out this hypothesis, the theoretical value of $g_{F}$ of $^8$$^5$Rb is employed to calculate $B_{true}$ and thus find out $B_{unknown}$. Then this additional magnetic field is added to the measured resonant magnetic field of the other isotope and thus find out its $g_{F}$ factor. \\
 
@@ -245,7 +275,7 @@ RF & RB85 Resonant Field & RB85 Resonant Field & Unknown Magnetic Field squared\
 \label{calibration}
 \end{table}
 
-It is noticeable that the square of the unknown magnetic field is negative. This actually makes sense, because from Fig. \ref{caliplot} it can be seen that the calculated values are always smaller than the measured ones.
+It is noticeable that the square of the unknown magnetic field is negative. This actually makes sense \textcolor{red}{(I disagree!)}, because from Fig. \ref{caliplot} it can be seen that the calculated values are always smaller than the measured ones. 
 
 \begin{figure}[h]
 \centering
