@@ -27,7 +27,9 @@
 %____________abstract____________________________________________
 
 \begin{abstract}
-\textcolor{red}{there's nothing here! That's NOT what I call a full first draft. Once you write, make sure it is self-contained, and has specific results. I'm very strict about abstracts. sorry I can't give you feedback on this one! }
+%\textcolor{red}{there's nothing here! That's NOT what I call a full first draft. Once you write, make sure it is self-contained, and has specific results. I'm very strict about abstracts. sorry I can't give you feedback on this one! }
+The goal of this experiment is to measure the Zeeman splitting of rubidium atoms in a magnetic field and to find the experimental values for $g_F$ values for the isotopes of rubidium; $^8$$^5$Rb and $^8$$^7$Rb.\\
+
 \end{abstract}
 
 \maketitle 
@@ -80,125 +82,63 @@ In out experiment, a right-circularly-polarized laser beam with the right freque
 \section{Experiment}
 
 To implement the optical pumping process, we used the apparatus shown in Fig. 
-\ref{exp}, manufactured by TeachSpin Inc. \\
+\ref{exp}, manufactured by TeachSpin Inc \cite{teach}. \\
 
 \begin{figure}[h]
 \centering
 \includegraphics[width=16cm]{exp.jpg}
-\caption{Optical pumping of Rubidium apparatus including the labelled components}
+\caption{Optical pumping of Rubidium apparatus including the labelled components \cite{rib}. There are three main components to this optical pumping set up on the optical rail. The light source (right hand side), the rubidium cell in the center (kept at 50$^{\circ}$C) surrounded by Helmholtz and RF field coils (center) and the detector (left hand side). }
 \label{exp}
 \end{figure}
 
-On the right side of the optical rail, the interference filter limits the bandwidth of light with a pass band of 790 nm to 830 nm, and the linear polarizer and quarter wave retarder convert the light from random polarization to circular polarization. The circular polarized light mandates only $\Delta M=+1$ electric dipole transitions in the atom.The Helmholtz coils provide the magnetic fields, are driven by dial controlled variable voltage dividers, and are monitored by an oscilloscope.\\
 
-The left side of the optical rail measures the intensity of light passing through the sample which in effect allows us to see when the sample is driven out of the optically pumped state. This signal is also monitored by the oscilloscope. The RF field coils are driven by a function generator and drive the sample out of the optically pumped state when the sweep field is at resonance.\\
+Light is emitted from a rubidium lamp on the right side of the optical rail with a wavelength of 794.8 nm with an energy of 1.56 eV; the light itself is purple to the visible eye.  the interference filter limits the bandwidth of light with a pass band of 790 nm to 830 nm, and the linear polarizer and quarter wave retarder convert the light from random polarization to circular polarization. The circular polarized light mandates only $\Delta M=+1$ electric dipole transitions in the atom.\\
 
+The circularly polarized photos next enter the temperature controlled (50$^{\circ}$C) rubidium cell containing both isotopes of rubidium,   $^8$$^5$Rb and $^8$$^7$Rb. The Helmholtz coils provide the magnetic fields, are driven by dial controlled variable voltage dividers, and are monitored by the x-axis input of the oscilloscope. The RF field coils are driven by a function generator and drive the sample out of the optically pumped state when the sweep field is at resonance.\\
 
+The left side of the optical rail measures the intensity of light passing through the sample which in effect allows us to see when the sample is driven out of the optically pumped state. This signal detected by the photodiode is monitored by the y-axis input of the oscilloscope. \\
+
+In the beginning of the experiment, we removed the quarter wave retarder and the linear polarizer to align the setup by moving the filters and focusing lenses so that the photodiode voltage reading is maximum. Then we put back two linear polarizers, one at either side of the cell, and aligned the two polarizers at 90$^{\circ}$ so that the photodiode voltage reads zero. The quarter wave retarded was then added back and rotated until the photodiode voltage reads a maximum value.\\
+
+When there is zero field applied by the coils, we know the Earth's magnetic field will have an influence on the Zeeman splitting by allowing atoms to be pumped into the less absorbent stats. So to take into consideration this zero field, we first oriented the apparatus so that the light beam passing through the rubidium cell was aligned along the north-south axis to cancel out the local component of the Earth's magnetic field. The set of vertical Helmholtz coils were used to cancel the vertical component of the earth's field. Now all is left is the horizontal component of the Earth's magnetic field that will be in the opposite direction of the current in the horizontal Helmholtz coils (along the axis of the path of light).When the net field at the cell is zero (applied field and Earth's field are equal and opposite), the Zeeman levels become degenerate and we can no longer pump the atoms into less absorbing states, thus we see a district dip in the line of the oscilloscope in the y-axis connected to the photodiode.\\
+
+Now finally we are ready to take data. We took in total, 10 sets of data for the RF frequency ranging from 10 to 100 kHz, in increments of 10kHz. For each data set, we connected the RF generator
 
 
 %____________Results____________________________________________
 \section{Results}
 
-A series of plots of photodiode voltage versus horizontal sweep voltage are obtained at different RF frequency. The horizontal sweep voltage is translated into sweep magnetic field strength by
+A series of plots of photodiode voltage versus horizontal sweep voltage are obtained at different RF frequency. 
+
+The horizontal sweep voltage is translated into sweep magnetic field strength by
 \begin{equation}
-B_{sweep}=8.991\times10^{-3} I N R_{coil}^{-1}
+B_{\textnormal{sweep}}=8.991\times10^{-3} I N R_{coil}^{-1}
 \label{vtob}
 \end{equation}
 
 where
 
 \begin{equation}
-I=\frac{V_{sweep}/gain}{R}
+I=\frac{V_{\textnormal{sweep}}/{\textrm{Gain}}}{R}
 \label{vtoi}
 \end{equation}
 
-\textcolor{blue}{don't write out gain in italics. Either spell it out in roman text or use a variable such as G.} 
 
+$N=11$ is the number of wires wrapped on each side and$R_{coil}=0.1639m$ is the average radius of the loop. Gain is 1 in this experiment and R is the recorder output resistance, which is $30 \Omega$. This was calculated by taking the voltage across the sense resistor labeled "recorder output" on the horizontal magnetic field sweep on the optical pumping instrument and was 30 times larger than the monitor voltage which has a sensor resistance of $1 \Omega$. Using Ohm's law of $V=IR$, we know that the resistance of the recorder output is 30 times that of the monitor, hence $30 \Omega$.\\
+%\textcolor{blue}{this is only true \textbf{if you measure the voltage across the sense resistor}, labeled ``monitor'' on the output panel. If you use the \textbf{recorder output} (as you actually did), the voltage is approximately 3x larger, as I've noted in my recent email to you showing the location and width of the zero field dip after adjusting the magnet coils and apparatus orientation with respect to the Earth's field. This is probably the source of your 3x error below. You should measure this exactly by comparing the two voltages.}  \\
 
-
-\begin{equation*}
-I=\frac{V_{sweep}/G}{R}
-\label{vtoi}
-\end{equation*}
-
-\begin{equation*}
-I=\frac{V_{sweep}/{\textrm{Gain}}}{R}
-\label{vtoi}
-\end{equation*}
-
-
-\textcolor{red}{where G is the gain} and R is the sense resistor, which is $1 \Omega$. $N=11$ is the number of wires wrapped on each side and$R_{coil}=0.1639m$ is the average radius of the loop. Gain is 10 in this experiment. 
-
-\textcolor{blue}{this is only true \textbf{if you measure the voltage across the sense resistor}, labeled ``monitor'' on the output panel. If you use the \textbf{recorder output} (as you actually did), the voltage is approximately 3x larger, as I've noted in my recent email to you showing the location and width of the zero field dip after adjusting the magnet coils and apparatus orientation with respect to the Earth's field. This is probably the source of your 3x error below. You should measure this exactly by comparing the two voltages.}  \\
-
-\begin{figure}[h]
+\begin{figure}[h!!!!!!!!]
 \centering
 \includegraphics[width=16cm]{100kHz.png}
-\caption{Photodiode voltage versus magnetic field strength at 100 kHz. The left trough is the zero field resonance, the middle trough is RF absorption for $^8$$^7$Rb and the right trough is for $^8$$^5$Rb.}
+\includegraphics[width=16cm]{20kHz.png}
+\caption{Photodiode voltage versus magnetic field strength at 100 kHz (top) and 20kHz (bottom). The left trough is the zero field resonance, the middle trough is RF absorption for $^8$$^7$Rb and the right trough is for $^8$$^5$Rb.}
 \label{100kHz}
 \end{figure}
 
+Fig. \ref{100kHz} shows two of the plots after the horizontal sweep voltage is converted to magnetic field strength. The first dip is where zero field transition happens, the first dip is where the  $^8$$^7$Rb transition happens and the second dip is the $^8$$^5$Rb transition. The difference between the zero field transition and the Rb transition is calculated to find the true magnetic field that is resonant with a given RF frequency. The resonant magnetic field is found for both $^8$$^7$Rb and $^8$$^5$Rb at RF frequency varying from 10kHz to 100kHz with a step size of 10kHz, and is also plotted versus the RF frequencies. \\
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=16cm]{20kHz.png}
-\caption{Photodiode voltage versus magnetic field strength at 20 kHz. The left trough is the zero field resonance, the middle trough is RF absorption for $^8$$^7$Rb and the right trough is for $^8$$^5$Rb.}
-\label{20kHz}
-\end{figure}
-
-Fig. \ref{100kHz} and Fig. \ref{20kHz} are two of the plots after the horizontal sweep voltage is converted to magnetic field strength. The first dip is where zero field transition happens, the first dip is where the  $^8$$^7$Rb transition happens and the second dip is the $^8$$^5$Rb transition. The difference between the zero field transition and the Rb transition is calculated to find the true magnetic field that is resonant with a given RF frequency. The resonant magnetic field is found for both $^8$$^7$Rb and $^8$$^5$Rb at RF frequency varying from 10kHz to 100kHz with a step size of 10kHz, and is also plotted versus the RF frequencies. 
-
-\textcolor{blue}{I suggest putting Fig 5 ahead of the tables, since otherwise it is too far away from the discussion of the figure in the text, and the data tables are just for reference information}. 
-Table. \ref{data} shows the positions of the dips and the resonant fields with uncertainties. Fig. \ref{both} shows the plot, from which it can be seen that resonant magnetic field and RF frequencies have a linear relationship. The different depth of the dips are caused by different amount of $^8$$^7$Rb and $^8$$^5$Rb in nature. There is more $^8$$^5$Rb than $^8$$^7$Rb, so the second dip is deeper. However, the photodiode voltage is not used for any calculation in this experiment. So we will not analyze it in detail.
-
-\begin{table}[h]
-\centering
-\caption{Optical pumping resonance field data}
-\begin{ruledtabular}
-\begin{tabular}{ l c c c}
-RF & Zero Field Dip & Rb87 Dip & Rb85 Dip\\
-(kHz) & (Gauss) & (Gauss) & (Gauss)\\
-\hline
-100	& -0.33216$\pm$2.40E-05 & 0.08509$\pm$1.80E-05 & 0.29449$\pm$1.44E-05\\
-90&-0.33221$\pm$2.37E-05&0.042623$\pm$2.09E-05&0.22929$\pm$1.61E-05\\
-80&-0.33336$\pm$2.79E-05&0.00052957$\pm$1.90E-05&0.16733$\pm$1.23E-05\\
-70&-0.33167$\pm$3.33E-05&-0.040531$\pm$2.51E-05&0.10456$\pm$1.51E-05\\
-60&-0.33178$\pm$2.96E-05&-0.082066$\pm$2.36E-05&0.041789$\pm$1.62E-05\\
-50&-0.33256$\pm$3.65E-05&-0.12408$\pm$2.52E-05&-0.019752$\pm$1.86E-05\\
-40&-0.33227$\pm$3.11E-05&-0.16902$\pm$3.25E-05&-0.082741$\pm$2.29E-05\\
-30&-0.33257$\pm$3.25E-05&-0.20774$\pm$3.69E-05&-0.1458$\pm$2.44E-05	\\
-20&-0.33519$\pm$3.26E-05&-0.2527$\pm$3.73E-05&-0.2111$\pm$2.93E-05\\
-10	&-0.335555$\pm$3.79E-05&-0.29493$\pm$7.74E-05&-0.27365$\pm$3.03E-05\\
-
-\end{tabular}
-\end{ruledtabular}
-\label{data}
-\end{table}
-
-\begin{table}[h]
-\centering
-\caption{Optical pumping resonance field data (continued)}
-\begin{ruledtabular}
-\begin{tabular}{ l c c}
-RF & RB87 Resonant Field & RB85 Resonant Field\\
-(kHz) & ($10^(-6)$Tesla) & ($10^(-6)$Tesla)\\
-\hline
-100 & 13.908$\pm$1.28E-03 & 20.8883$\pm$1.4E-03\\
-90 & 12.4944$\pm$1.33E-03 & 18.7167$\pm$1.49E-03\\
-80 & 11.1297$\pm$1.34E-03 & 16.6897$\pm$1.56E-03\\
-70 & 9.7046$\pm$1.61E-03 & 14.541$\pm$1.95E-03\\
-60 & 8.3238$\pm$1.53E-03 & 12.4523$\pm$1.77E-03\\
-50 & 6.9493$\pm$1.84E-03 & 10.4269$\pm$2.06E-03\\
-40 & 5.4417$\pm$1.8E-03 & 8.3176$\pm$2.12E-03\\
-30 & 4.161$\pm$1.90E-03 & 6.2257$\pm$2.31E-03\\
-20 &	2.7497$\pm$2.06E-03 & 4.1363$\pm$2.33E-03\\
-10 &	1.3542$\pm$2.27E-03 & 2.0635$\pm$3.84E-03\\
-
-\end{tabular}
-\end{ruledtabular}
-\label{data2}
-\end{table}
-
+%\textcolor{blue}{I suggest putting Fig 5 ahead of the tables, since otherwise it is too far away from the discussion of the figure in the text, and the data tables are just for reference information}. 
+Table.\ref{data} in the appendix shows the positions of the dips and the resonant fields with uncertainties. Fig. \ref{both} shows the plot, from which it can be seen that resonant magnetic field and RF frequencies have a linear relationship. The different depth of the dips are caused by different amount of $^8$$^7$Rb and $^8$$^5$Rb in nature. There is more $^8$$^5$Rb than $^8$$^7$Rb, so the second dip is deeper. However, the photodiode voltage is not necessary for calculation in this experiment as we only cared about the location of the dip on the x-axis.
 
 
 \begin{figure}[h]
@@ -226,11 +166,9 @@ B=\frac{h}{g_{F}\mu_{0}}\nu
 where B is the the resonant magnetic field and $\nu$ is the RF frequency. And it is easy to see that they have a linear relationship. $g_{F}$ can be calculate from the slope of the fit line:
 
 \begin{equation}
-g_{F}=\frac{\mu_{0}}{h} \times \frac{1}{Slope}
+g_{F}=\frac{\mu_{0}}{h} \times \frac{1}{\textrm{Slope}}
 \label{gf}
 \end{equation}
-
-\textcolor{red}{the word ``Slope'' in italics instead of as a symbol or a math expression? ugh!} 
 
 $g_{F}$ is found to be $0.1708\pm0.0004$ for $^8$$^7$Rb and $0.1141\pm0.0002$ for $^8$$^5$Rb where the expected values are 1/2 and 1/3.
 
@@ -238,45 +176,43 @@ $g_{F}$ is found to be $0.1708\pm0.0004$ for $^8$$^7$Rb and $0.1141\pm0.0002$ fo
 
 %____________Discussion____________________________________________
 \section{Discussion}
-The experimental $g_{F}$ values are inconsistent with the expected values, both of which are about 3 times bigger.\\
-The first possibility that could cause this discrepancy is that there is an unknown magnetic field $B_{unknown}$ that is either not counted or over counted in Eq. \ref{zeeman}. 
+%The experimental $g_{F}$ values are inconsistent with the expected values, both of which are about 3 times bigger.\\
+%The first possibility that could cause this discrepancy is that there is an unknown magnetic field $B_{unknown}$ that is either not counted or over counted in Eq. \ref{zeeman}. 
 
-\begin{equation}
-B_{true}^{2}=B^{2}+B_{unknown}^{2}
-\label{bnew}
-\end{equation}
+%\begin{equation}
+%B_{true}^{2}=B^{2}+B_{unknown}^{2}
+%\label{bnew}
+%\end{equation}
 
-\textcolor{blue}{this equation doesn't make any sense to me.} $(B + B_0)^2 \neq B^2 + {B_0}^2$!   \textcolor{blue}{If you are saying you need to measure the true magnetic field by redefining B to be zero where you see the zero field dip, yes, absolutely. So then} $B = B_{\textrm{nominal}} - B_{\textrm{zero}}$, and $B^2 = (B_{\textrm{nominal}} - B_{\textrm{zero}})^2$, \textcolor{blue}{where based on your figures,} $B_{\textrm{zero}} = -0.34 G$  (approximately). \textcolor{blue}{but why do you want }$B^2$ \textcolor{blue}{anyway?}
+%\textcolor{blue}{this equation doesn't make any sense to me.} $(B + B_0)^2 \neq B^2 + {B_0}^2$!   \textcolor{blue}{If you are saying you need to measure the true magnetic field by redefining B to be zero where you see the zero field dip, yes, absolutely. So then} $B = B_{\textrm{nominal}} - B_{\textrm{zero}}$, and $B^2 = (B_{\textrm{nominal}} - B_{\textrm{zero}})^2$, \textcolor{blue}{where based on your figures,} $B_{\textrm{zero}} = -0.34 G$  (approximately). \textcolor{blue}{but why do you want }$B^2$ \textcolor{blue}{anyway?}
 
+%where B is the magnetic field value we are currently using. To test out this hypothesis, the theoretical value of $g_{F}$ of $^8$$^5$Rb is employed to calculate $B_{true}$ and thus find out $B_{unknown}$. Then this additional magnetic field is added to the measured resonant magnetic field of the other isotope and thus find out its $g_{F}$ factor. \\
 
-where B is the magnetic field value we are currently using. To test out this hypothesis, the theoretical value of $g_{F}$ of $^8$$^5$Rb is employed to calculate $B_{true}$ and thus find out $B_{unknown}$. Then this additional magnetic field is added to the measured resonant magnetic field of the other isotope and thus find out its $g_{F}$ factor. \\
+%\begin{table}[h]
+%\centering
+%\caption{$B_{unknown}$}
+%\begin{ruledtabular}
+%\begin{tabular}{ l c c c}
+%RF & RB85 Resonant Field & RB85 Resonant Field & Unknown Magnetic Field squared\\
+% & (Measured) & (Calculated) & \\
+%(kHz) & (Gauss) & (Gauss) & (Gauss$^{2}$)\\
+%\hline
+%100 & 0.41725 & 0.214434 & -0.346708\\
+%90 & 0.374833 & 0.19299 & -0.278037\\
+%80 & 0.33388957 & 0.171547 & -0.221262\\
+%70 & 0.291139 & 0.150104 & -0.167766\\
+%60 & 0.249714 & 0.12866 & -0.123\\
+%50 & 0.20848 & 0.107217 & -0.0863534\\
+%40 & 0.16325 & 0.0857735 & -0.0549076\\
+%30 & 0.12483 & 0.0643301 & -0.0307447\\
+%20 &	0.08249 & 0.0428867 & -0.0135591\\
+%10 &	0.040625 & 0.0214434 & -0.00337241\\
+%\end{tabular}
+%\end{ruledtabular}
+%\label{calibration}
+%\end{table}
 
-\begin{table}[h]
-\centering
-\caption{$B_{unknown}$}
-\begin{ruledtabular}
-\begin{tabular}{ l c c c}
-RF & RB85 Resonant Field & RB85 Resonant Field & Unknown Magnetic Field squared\\
- & (Measured) & (Calculated) & \\
-(kHz) & (Gauss) & (Gauss) & (Gauss$^{2}$)\\
-\hline
-100 & 0.41725 & 0.214434 & -0.346708\\
-90 & 0.374833 & 0.19299 & -0.278037\\
-80 & 0.33388957 & 0.171547 & -0.221262\\
-70 & 0.291139 & 0.150104 & -0.167766\\
-60 & 0.249714 & 0.12866 & -0.123\\
-50 & 0.20848 & 0.107217 & -0.0863534\\
-40 & 0.16325 & 0.0857735 & -0.0549076\\
-30 & 0.12483 & 0.0643301 & -0.0307447\\
-20 &	0.08249 & 0.0428867 & -0.0135591\\
-10 &	0.040625 & 0.0214434 & -0.00337241\\
-
-\end{tabular}
-\end{ruledtabular}
-\label{calibration}
-\end{table}
-
-It is noticeable that the square of the unknown magnetic field is negative. This actually makes sense \textcolor{red}{(I disagree!)}, because from Fig. \ref{caliplot} it can be seen that the calculated values are always smaller than the measured ones. 
+%It is noticeable that the square of the unknown magnetic field is negative. This actually makes sense \textcolor{red}{(I disagree!)}, because from Fig. \ref{caliplot} it can be seen that the calculated values are always smaller than the measured ones. 
 
 %\begin{figure}[h]
 %\centering
@@ -285,13 +221,68 @@ It is noticeable that the square of the unknown magnetic field is negative. This
 %\label{caliplot}
 %\end{figure}
 
-However, when the unknown magnetic field is added, negative values are shown for $^8$$^7$Rb resonant magnetic field squared. Since the resonant magnetic field must be real, this method fails. The reason might be that the additional field is different for $^8$$^5$Rb and $^8$$^7$Rb at the same RF frequency. It is also possible that the discrepancy is not caused by any additional unknown magnetic field. 
+%However, when the unknown magnetic field is added, negative values are shown for $^8$$^7$Rb resonant magnetic field squared. Since the resonant magnetic field must be real, this method fails. The reason might be that the additional field is different for $^8$$^5$Rb and $^8$$^7$Rb at the same RF frequency. It is also possible that the discrepancy is not caused by any additional unknown magnetic field. 
 
 
 %____________Conclusion____________________________________________
 \section{Conclusion}
 
 \textcolor{green}{your message here?}
+
+%\clearpage
+
+%\vspace*{-2.5cm}
+\section{Appendix}
+%\vspace*{-1.5cm}
+\begin{table}[h]
+\centering
+\caption{Optical pumping resonance field data}
+\begin{ruledtabular}
+\begin{tabular}{ l c c c}
+RF & Zero Field Dip & Rb87 Dip & Rb85 Dip\\
+(kHz) & (Gauss) & (Gauss) & (Gauss)\\
+\hline
+100	& -0.33216$\pm$2.40E-05 & 0.08509$\pm$1.80E-05 & 0.29449$\pm$1.44E-05\\
+90&-0.33221$\pm$2.37E-05&0.042623$\pm$2.09E-05&0.22929$\pm$1.61E-05\\
+80&-0.33336$\pm$2.79E-05&0.00052957$\pm$1.90E-05&0.16733$\pm$1.23E-05\\
+70&-0.33167$\pm$3.33E-05&-0.040531$\pm$2.51E-05&0.10456$\pm$1.51E-05\\
+60&-0.33178$\pm$2.96E-05&-0.082066$\pm$2.36E-05&0.041789$\pm$1.62E-05\\
+50&-0.33256$\pm$3.65E-05&-0.12408$\pm$2.52E-05&-0.019752$\pm$1.86E-05\\
+40&-0.33227$\pm$3.11E-05&-0.16902$\pm$3.25E-05&-0.082741$\pm$2.29E-05\\
+30&-0.33257$\pm$3.25E-05&-0.20774$\pm$3.69E-05&-0.1458$\pm$2.44E-05	\\
+20&-0.33519$\pm$3.26E-05&-0.2527$\pm$3.73E-05&-0.2111$\pm$2.93E-05\\
+10	&-0.335555$\pm$3.79E-05&-0.29493$\pm$7.74E-05&-0.27365$\pm$3.03E-05\\
+\end{tabular}
+\end{ruledtabular}
+\label{data}
+\end{table}
+
+\vspace*{-5cm}
+\begin{table}[h]
+\centering
+\caption{Optical pumping resonance field data (continued)}
+\begin{ruledtabular}
+\begin{tabular}{ l c c}
+RF & RB87 Resonant Field & RB85 Resonant Field\\
+(kHz) & ($10^{-6}$Tesla) & ($10^{-6}$Tesla)\\
+\hline
+100 & 13.908$\pm$1.28E-03 & 20.8883$\pm$1.4E-03\\
+90 & 12.4944$\pm$1.33E-03 & 18.7167$\pm$1.49E-03\\
+80 & 11.1297$\pm$1.34E-03 & 16.6897$\pm$1.56E-03\\
+70 & 9.7046$\pm$1.61E-03 & 14.541$\pm$1.95E-03\\
+60 & 8.3238$\pm$1.53E-03 & 12.4523$\pm$1.77E-03\\
+50 & 6.9493$\pm$1.84E-03 & 10.4269$\pm$2.06E-03\\
+40 & 5.4417$\pm$1.8E-03 & 8.3176$\pm$2.12E-03\\
+30 & 4.161$\pm$1.90E-03 & 6.2257$\pm$2.31E-03\\
+20 &	2.7497$\pm$2.06E-03 & 4.1363$\pm$2.33E-03\\
+10 &	1.3542$\pm$2.27E-03 & 2.0635$\pm$3.84E-03\\
+\end{tabular}
+\end{ruledtabular}
+\label{data2}
+\end{table}
+
+
+\clearpage
 
 \begin{acknowledgments}
 
@@ -302,8 +293,8 @@ We gratefully acknowledge Nathanael Fortune and Dana Parsons, who helped with th
 
 \begin{thebibliography}{99}
 
-%\bibitem{wik} Double Slit Experiment, \url{<http://upload.wikimedia.org/wikipedia/commons/c/c2/Single_slit_and_double_slit2.jpg/>}.
 \bibitem{teach} TeachSpin Instructions Manual,\textit{Optical Pumping of Rubidium OP1-A}, 6/2002.
+\bibitem{rib} Welcome to the University of Minnesota Methods of Experimental Physics Laboratory, http://spa-mxpweb.spa.umn.edu/s11/Projects/S11\_OpticalPumping/apparatus.html,\textit{Optical Pumping of Rubidium}.
 \bibitem{energy} Optical Pumping, http://internal.physics.uwa.edu.au/~stamps/2006Y3Lab/SteveAndBlake/theoretical.html
 
 \end{thebibliography}
