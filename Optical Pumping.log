@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 DEC 2014 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  12 DEC 2014 18:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,77 +399,99 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 
  []
 
-<100kHz.png, id=32, 1254.6875pt x 839.135pt>
-File: 100kHz.png Graphic file (type png)
- <use 100kHz.png>
-Package pdftex.def Info: 100kHz.png used on input line 132.
-(pdftex.def)             Requested size: 455.24408pt x 304.46994pt.
 
-<20kHz.png, id=33, 1410.91327pt x 805.36673pt>
-File: 20kHz.png Graphic file (type png)
- <use 20kHz.png>
-Package pdftex.def Info: 20kHz.png used on input line 133.
-(pdftex.def)             Requested size: 455.24408pt x 259.84859pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-[6] [7 <./100kHz.png> <./20kHz.png (PNG copy)>]
-<slopegraph.png, id=41, 1297.30989pt x 751.608pt>
+<100k.png, id=32, 1945.45769pt x 607.57516pt>
+File: 100k.png Graphic file (type png)
+ <use 100k.png>
+Package pdftex.def Info: 100k.png used on input line 115.
+(pdftex.def)             Requested size: 426.79134pt x 133.28683pt.
+
+<20k.png, id=33, 1946.472pt x 604.53221pt>
+File: 20k.png Graphic file (type png)
+ <use 20k.png>
+Package pdftex.def Info: 20k.png used on input line 116.
+(pdftex.def)             Requested size: 426.79134pt x 132.5455pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+[6 <./100k.png (PNG copy)> <./20k.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+[7] <gau.png, id=41, 1380.15625pt x 795.97375pt>
+File: gau.png Graphic file (type png)
+ <use gau.png>
+Package pdftex.def Info: gau.png used on input line 150.
+(pdftex.def)             Requested size: 455.24408pt x 262.55069pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+<slopegraph.png, id=42, 1297.30989pt x 751.608pt>
 File: slopegraph.png Graphic file (type png)
  <use slopegraph.png>
-Package pdftex.def Info: slopegraph.png used on input line 147.
+Package pdftex.def Info: slopegraph.png used on input line 162.
 (pdftex.def)             Requested size: 455.24408pt x 263.75485pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+ [8 <./gau.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-[8 <./slopegraph.png (PNG copy)>]
+[9 <./slopegraph.png (PNG copy)>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[9] [10]
-Underfull \hbox (badness 1024) in paragraph at lines 297--298
+[10] [11]
+Underfull \hbox (badness 1024) in paragraph at lines 260--261
 []\OT1/cmr/m/n/10.95 Welcome to the Uni-ver-sity of Min-nesota Meth-ods of Ex-p
 er-i-men-tal Physics Lab-o-ra-tory,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 \OT1/cmr/m/n/10.95 http://spa-mxpweb.spa.umn.edu/s11/Projects/S11[]OpticalPumpi
 ng/apparatus.html,\OT1/cmr/m/it/10.95 Optical
  []
 
 
-Overfull \hbox (54.75447pt too wide) in paragraph at lines 298--299
+Overfull \hbox (54.75447pt too wide) in paragraph at lines 261--262
 []\OT1/cmr/m/n/10.95 Optical Pump-ing, http://internal.physics.uwa.edu.au/ stam
 ps/2006Y3Lab/SteveAndBlake/theoretical.html 
  []
 
 No file "Optical Pumping".bbl.
-[11] (./Optical Pumping.aux)
+[12] (./Optical Pumping.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4322 strings out of 493117
- 57783 string characters out of 6135433
- 136152 words of memory out of 5000000
- 7721 multiletter control sequences out of 15000+600000
+ 4328 strings out of 493117
+ 57822 string characters out of 6135433
+ 137167 words of memory out of 5000000
+ 7726 multiletter control sequences out of 15000+600000
  12084 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,32p,1214b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -486,10 +508,10 @@ texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Optical Pumping.pdf" (11 pages, 1542103 bytes).
+Output written on "Optical Pumping.pdf" (12 pages, 1986404 bytes).
 PDF statistics:
- 97 PDF objects out of 1000 (max. 8388607)
- 65 compressed objects within 1 object stream
+ 101 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
