@@ -35,7 +35,7 @@
 %____________Introduction____________________________________________
 \section{Introduction}
 
-\textcolor{blue}{in the interests of time, I'm not making detailed comments on the Introduction}
+%\textcolor{blue}{in the interests of time, I'm not making detailed comments on the Introduction}
 
 In quantum mechanics, hydrogen-like atoms, i.e. atoms with only one valence electron, are modeled such that the outmost electron can only exist in some discrete energy levels. These orbits are described by quantum numbers $n$ and $l$, where $n=1, 2, ...$ and $l=s, p, d, f, ...$, denoting the energy and orbital angular momentum of the electron. However, this model does not consider the spin of the electron. When the spin is taken into account, each energy level will split into two due to the coupling effect between the spin and the orbital angular momentum of the electron. This is known as the fine structure. The summation $J=L+S$ is the total angular momentum, where $S$ is the electron spin and $L$ is the orbital angular momentum. If the spin of the nucleus $I$ is also considered, each fine-structure level will again split. And the atom will have a total angular momentum $F=I+J$. This is also known as the hyperfine structure. Finally, when a relatively weak external magnetic field is applied, each $F$ level splits into different $M$ levels with spacing proportional to the strength of the field. This splitting is known as the Zeeman effect. The Zeeman splitting is given by
 
@@ -44,7 +44,7 @@ E_{z}=g_{F} \mu_{0} BM
 \label{zeeman}
 \end{equation}
 
-Where $E_{z}$ is the Zeeman energy, the energy difference between two different $M$ levels, B is the external magnetic field strength, and $\mu_{0}$ is the Bohr magneton. 
+Where $E_{z}$ is the Zeeman energy, the energy difference between two different $M$ levels, B is the external magnetic field strength, and $\mu_{0}$ is the Bohr magneton. From Eq. \eqref{zeeman} it can be seen that $E_{z}$ is linearly proportional to $B$. By changing the RF signal, which will match $E_{z}$, and the magnetic field $B$, we could find out the coupling constant $g_{F}$ for Rubidium.\\
 
 \begin{equation}
 \mu_{0}=\frac{e\hbar}{2m_{e}}=9.27\times10^{-24} J/T
@@ -76,10 +76,6 @@ When a photon with the right energy to excite the electron from level $1s$ to $2
 
 In out experiment, a right-circularly-polarized laser beam with the right frequency to excite electrons from ground state to first excited state passes through some Rubidium vapor and is then detected by a photodiode. Because of the polarization of the photons, transitions induced all have $\Delta M=1$. The average emissions have average $\Delta M=0$, so very quickly all the electrons will be "pumped" up to the highest $M$ level. When that happens, the Rubidium vapor is unable to absorb any more photon, which means that it has become transparent to the laser beam. Then an RF (Radio Frequency) signal is introduced into the system. When the RF signal has the exact energy between the Zeeman splitting, it "depumps" the electrons from the highest $M$ level down, and the Rubidium vapor can absorb photons again, which will cause a sudden decrease in the intensity of the laser beam detected by the photodiode. \\
 
-\textcolor{blue}{this next paragraph should follow immediately after Eq.~\eqref{zeeman} or perhaps right after Eq.4.  }
-
-From Eq. \eqref{zeeman} it can be seen that $E_{z}$ is linearly proportional to $B$. By changing the RF signal, which will match $E_{z}$, and the magnetic field $B$, we could find out the coupling constant $g_{F}$ for Rubidium.\\
-
 %____________Experiment____________________________________________
 \section{Experiment}
 
@@ -89,11 +85,15 @@ To implement the optical pumping process, we used the apparatus shown in Fig.
 \begin{figure}[h]
 \centering
 \includegraphics[width=16cm]{exp.jpg}
-\caption{Optical pumping of Rubidium apparatus}
+\caption{Optical pumping of Rubidium apparatus including the labelled components}
 \label{exp}
 \end{figure}
 
-On the right side of the optical rail, the interference filter limits the bandwidth of light with a pass band of 790 nm to 830 nm, and the linear polarizer and quarter wave retarder convert the light from random polarization to circular polarization. The circular polarized light mandates only $\Delta M=+1$ electric dipole transitions in the atom.The Helmholtz coils provide the magnetic fields, are driven by dial controlled variable voltage dividers, and are monitored by two Agilent 34410 digital multimeters and a Tektronix 2024B oscilloscope. The left side of the optical rail measures the intensity of light passing through the sample which in effect allows us to see when the sample is driven out of the optically pumped state. This signal is also monitored by the oscilloscope. The RF field coils are driven by an HP33120A function generator and drive the sample out of the optically pumped state when the sweep field is at resonance.
+On the right side of the optical rail, the interference filter limits the bandwidth of light with a pass band of 790 nm to 830 nm, and the linear polarizer and quarter wave retarder convert the light from random polarization to circular polarization. The circular polarized light mandates only $\Delta M=+1$ electric dipole transitions in the atom.The Helmholtz coils provide the magnetic fields, are driven by dial controlled variable voltage dividers, and are monitored by an oscilloscope.\\
+
+The left side of the optical rail measures the intensity of light passing through the sample which in effect allows us to see when the sample is driven out of the optically pumped state. This signal is also monitored by the oscilloscope. The RF field coils are driven by a function generator and drive the sample out of the optically pumped state when the sweep field is at resonance.\\
+
+
 
 
 %____________Results____________________________________________
@@ -181,18 +181,18 @@ RF & Zero Field Dip & Rb87 Dip & Rb85 Dip\\
 \begin{ruledtabular}
 \begin{tabular}{ l c c}
 RF & RB87 Resonant Field & RB85 Resonant Field\\
-(kHz) & (Gauss) & (Gauss)\\
+(kHz) & ($10^(-6)$Tesla) & ($10^(-6)$Tesla)\\
 \hline
-100 & 0.41725$\pm$4.20E-05 & 0.62665$\pm$3.84E-05\\
-90 & 0.374833$\pm$4.46E-05 & 0.5615$\pm$3.98E-05\\
-80 & 0.33388957$\pm$4.69E-05 & 0.50069$\pm$4.02E-05\\
-70 & 0.291139$\pm$5.84E-05 & 0.43623$\pm$4.84E-05\\
-60 & 0.249714$\pm$5.32E-05 & 0.373569$\pm$4.58E-05\\
-50 & 0.20848$\pm$6.17E-05 & 0.312808$\pm$5.51E-05\\
-40 & 0.16325$\pm$6.36E-05 & 0.249529$\pm$5.40E-05\\
-30 & 0.12483$\pm$6.94E-05 & 0.18677$\pm$5.69E-05\\
-20 &	0.08249$\pm$6.99E-05 & 0.12409$\pm$6.19E-05\\
-10 &	0.040625$\pm$1.15E-04 & 0.061905$\pm$6.82E-05\\
+100 & 13.908$\pm$1.28E-03 & 20.8883$\pm$1.4E-03\\
+90 & 12.4944$\pm$1.33E-03 & 18.7167$\pm$1.49E-03\\
+80 & 11.1297$\pm$1.34E-03 & 16.6897$\pm$1.56E-03\\
+70 & 9.7046$\pm$1.61E-03 & 14.541$\pm$1.95E-03\\
+60 & 8.3238$\pm$1.53E-03 & 12.4523$\pm$1.77E-03\\
+50 & 6.9493$\pm$1.84E-03 & 10.4269$\pm$2.06E-03\\
+40 & 5.4417$\pm$1.8E-03 & 8.3176$\pm$2.12E-03\\
+30 & 4.161$\pm$1.90E-03 & 6.2257$\pm$2.31E-03\\
+20 &	2.7497$\pm$2.06E-03 & 4.1363$\pm$2.33E-03\\
+10 &	1.3542$\pm$2.27E-03 & 2.0635$\pm$3.84E-03\\
 
 \end{tabular}
 \end{ruledtabular}
@@ -203,7 +203,8 @@ RF & RB87 Resonant Field & RB85 Resonant Field\\
 
 \begin{figure}[h]
 \centering
-\includegraphics[width=16cm]{both.png}
+%\includegraphics[width=16cm]{both.png}
+\includegraphics[width=16cm]{slopegraph.png}
 \caption{Horizontal magnetic field strength in resonance vs. RF frequency. \textcolor{red}{you should include a short explanation of the meaning of the slope, such as how it is related to g. linearly proportional? inversely proportional?} }
 \label{both}
 \end{figure}
@@ -277,12 +278,12 @@ RF & RB85 Resonant Field & RB85 Resonant Field & Unknown Magnetic Field squared\
 
 It is noticeable that the square of the unknown magnetic field is negative. This actually makes sense \textcolor{red}{(I disagree!)}, because from Fig. \ref{caliplot} it can be seen that the calculated values are always smaller than the measured ones. 
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=16cm]{calibration.png}
-\caption{Plot of measured and calculated resonant field for $^8$$^5$Rb}
-\label{caliplot}
-\end{figure}
+%\begin{figure}[h]
+%\centering
+%\includegraphics[width=16cm]{calibration.png}
+%\caption{Plot of measured and calculated resonant field for $^8$$^5$Rb}
+%\label{caliplot}
+%\end{figure}
 
 However, when the unknown magnetic field is added, negative values are shown for $^8$$^7$Rb resonant magnetic field squared. Since the resonant magnetic field must be real, this method fails. The reason might be that the additional field is different for $^8$$^5$Rb and $^8$$^7$Rb at the same RF frequency. It is also possible that the discrepancy is not caused by any additional unknown magnetic field. 
 
