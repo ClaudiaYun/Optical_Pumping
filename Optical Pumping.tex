@@ -27,8 +27,8 @@
 %____________abstract____________________________________________
 
 \begin{abstract}
-%\textcolor{red}{there's nothing here! That's NOT what I call a full first draft. Once you write, make sure it is self-contained, and has specific results. I'm very strict about abstracts. sorry I can't give you feedback on this one! }
-The goal of this experiment is to measure the Zeeman splitting of rubidium atoms in a magnetic field and to find the experimental values for $g_F$ values for the isotopes of rubidium; $^8$$^5$Rb and $^8$$^7$Rb.\\
+
+When an external static magnetic field is applied to an atom, the hyperfine energy levels of the atom split, with spacing proportional to the magnitude of that field. This is called the Zeeman effect. Optical pumping of Rubidium is used in this experiment to examine this effect. A circularly polarized laser beam with wavelength of 794.8 nm was directed through Rubidium vapor surrounded by Helmholtz coils in all three dimensions, and detected by a photodiode. A radio frequency (RF) signal was applied to the Rb vapor. When changing the magnitude of the magnetic field created by the Helmholtz coil, the opacity of the Rb vapor would have a sudden drop when the external field was in resonance with the RF signal. Varying the RF signal, we observed a change in the magnitude of the resonant field. From the relationship between the signal and the field, the Lande g-factor was determined for $^8$$^5$Rb, $g_{85}=0.34\pm0.0002$, and $^8$$^7$Rb, $g_{87}=0.51\pm0.0004$, whose theoretical values are 1/3 and 1/2 respectively. \\
 
 \end{abstract}
 
@@ -94,15 +94,17 @@ To implement the optical pumping process, we used the apparatus shown in Fig.
 
 Light is emitted from a rubidium lamp on the right side of the optical rail with a wavelength of 794.8 nm with an energy of 1.56 eV; the light itself is purple to the visible eye.  the interference filter limits the bandwidth of light with a pass band of 790 nm to 830 nm, and the linear polarizer and quarter wave retarder convert the light from random polarization to circular polarization. The circular polarized light mandates only $\Delta M=+1$ electric dipole transitions in the atom.\\
 
-The circularly polarized photos next enter the temperature controlled (50$^{\circ}$C) rubidium cell containing both isotopes of rubidium,   $^8$$^5$Rb and $^8$$^7$Rb. The Helmholtz coils provide the magnetic fields, are driven by dial controlled variable voltage dividers, and are monitored by the x-axis input of the oscilloscope. The RF field coils are driven by a function generator and drive the sample out of the optically pumped state when the sweep field is at resonance.\\
+The circularly polarized photos next enter the temperature controlled (50$^{\circ}$C) rubidium cell containing both isotopes of rubidium,   $^8$$^5$Rb and $^8$$^7$Rb. The Helmholtz coils provide the magnetic fields, are driven by dial controlled variable voltage dividers, and are monitored by the x-axis input of the oscilloscope. The RF field coils are driven by a function generator and drive the sample out of the optically pumped state when the sweep field is at resonant with the energy difference between two neighbor levels.\\
 
 The left side of the optical rail measures the intensity of light passing through the sample which in effect allows us to see when the sample is driven out of the optically pumped state. This signal detected by the photodiode is monitored by the y-axis input of the oscilloscope. \\
 
 In the beginning of the experiment, we removed the quarter wave retarder and the linear polarizer to align the setup by moving the filters and focusing lenses so that the photodiode voltage reading is maximum. Then we put back two linear polarizers, one at either side of the cell, and aligned the two polarizers at 90$^{\circ}$ so that the photodiode voltage reads zero. The quarter wave retarded was then added back and rotated until the photodiode voltage reads a maximum value.\\
 
-When there is zero field applied by the coils, we know the Earth's magnetic field will have an influence on the Zeeman splitting by allowing atoms to be pumped into the less absorbent stats. So to take into consideration this zero field, we first oriented the apparatus so that the light beam passing through the rubidium cell was aligned along the north-south axis to cancel out the local component of the Earth's magnetic field. The set of vertical Helmholtz coils were used to cancel the vertical component of the earth's field. Now all is left is the horizontal component of the Earth's magnetic field that will be in the opposite direction of the current in the horizontal Helmholtz coils (along the axis of the path of light).When the net field at the cell is zero (applied field and Earth's field are equal and opposite), the Zeeman levels become degenerate and we can no longer pump the atoms into less absorbing states, thus we see a district dip in the line of the oscilloscope in the y-axis connected to the photodiode.\\
+%When there is zero field applied by the coils, we know the Earth's magnetic field will have an influence on the Zeeman splitting by allowing atoms to be pumped into the less absorbent stats. So to take into consideration this zero field,
 
-Now finally we are ready to take data. We took in total, 10 sets of data for the RF frequency ranging from 10 to 100 kHz, in increments of 10kHz. For each data set, we changed the settings on the horizontal magnetic field sweep so that the time was 100 second, range was at 4.4 and start field at 2 on the nob.This way we could fit all the dips on the scale at all 10 different frequencies.\\
+The Earth has a non-zero magnetic field, which would affect Zeeman splitting, therefore we want it to be minimized. We first oriented the apparatus so that the light beam passing through the rubidium cell was aligned along the north-south axis to cancel out the local component of the Earth's magnetic field. The set of vertical Helmholtz coils were used to cancel the vertical component of the earth's field. Now all is left is the horizontal component of the Earth's magnetic field that will be in the opposite direction of the current in the horizontal Helmholtz coils (along the axis of the path of light).When the net field at the cell is zero (applied field and Earth's field are equal and opposite), the Zeeman levels become degenerate and we can no longer pump the atoms into less absorbing states, thus we see a district dip in the line of the oscilloscope in the y-axis connected to the photodiode.\\
+
+Now the apparatus is properly set up, 10 sets of data for the RF frequency ranging from 10 to 100 kHz are taken, in increments of 10kHz. For each data set, the horizontal magnetic field sweep is set so that the time was 100 second, range was at 4.4 and start field at 2 on the nob.This way we could fit all the dips on the scale at all 10 different frequencies.\\
 
 
 %____________Results____________________________________________
@@ -125,8 +127,7 @@ The different depth of the dips are caused by different amounts of $^8$$^7$Rb an
 
 %____________Discussion____________________________________________
 \section{Discussion}
-
-In the results section, we recorded the voltage across the horizontal magnetic field coils, but what we really want is the magnetic field strength in the unit of gauss. The horizontal sweep voltage is converted into sweep magnetic field strength by eq.\ref{vtob}
+Voltage is recorded for the horizontal sweep field, but it needs to be converted to magnetic field strength to be useful. The conversion in the unit of Gauss is given by eq.\ref{vtob}
 %\vspace*{-0.25cm}
 \begin{equation}
 B_{\textnormal{sweep}}=8.991\times10^{-3} I N R_{coil}^{-1}
@@ -141,9 +142,9 @@ I=\frac{V_{\textnormal{sweep}}/{\textrm{Gain}}}{R}
 \end{equation}
 
 
-$N=11$ is the number of wires wrapped on each side and$R_{coil}=0.1639m$ is the average radius of the loop. Gain is 1 in this experiment and R is the recorder output resistance, which is $30 \Omega$. This was calculated by taking the voltage across the sense resistor labeled "recorder output" on the horizontal magnetic field sweep on the optical pumping instrument and was 30 times larger than the monitor voltage which has a sensor resistance of $1 \Omega$. Using Ohm's law of $V=IR$, we know that the resistance of the recorder output is 30 times that of the monitor, hence $30 \Omega$.\\
+$N=11$ is the number of wires wrapped on each side and$R_{coil}=0.1639m$ is the average radius of the loop. Gain is 1 in this experiment and R is the recorder output resistance, which is $30 \Omega$. This is calculated by taking the voltage across the sensor resistor labeled "recorder output" on the horizontal magnetic field sweep on the optical pumping instrument and the monitor voltage, both of which measure the same current passing through the coils. The sweep field voltage is 30 times larger than the monitor voltage, and it is given that the monitor has a sensor resistance of $1 \Omega$. Using Ohm's law of $V=IR$, the resistance of the recorder output is easily found to be $30 \Omega$. \\
 
-After converting all of our initial voltage values to Gauss using eq.\ref{vtob} and eq.\ref{vtoi}, we replace the x-axis value for all 10 graphs with the new values in the corrected unit of Gauss. An example of this plot is shown in Fig.\ref{gau}. For all three dips in each graph, we used a gaussian curve fit to find the horizontal field value at the minimum point of the dip. From here, we can record the zero field, resonant field for $^8$$^7$Rb and resonant field for $^8$$^5$Rb at all 10 different RF frequencies.\\
+After converting all the initial voltage values to Gauss using eq.\ref{vtob} and eq.\ref{vtoi}, the x-axis value for all 10 graphs are replaced by the new values in the unit of Gauss. An example of this plot is shown in Fig.\ref{gau}. For all three dips in each graph, a gaussian curve fit is used to find the horizontal field value at the minimum point of the dip. From here, we record the zero field, resonant field for $^8$$^7$Rb and resonant field for $^8$$^5$Rb at all 10 different RF frequencies.\\
 
 \begin{figure}[h]
 \centering
@@ -153,7 +154,7 @@ After converting all of our initial voltage values to Gauss using eq.\ref{vtob} 
 \end{figure}
 
 
-Table.\ref{data} in the appendix shows the positions of al the dips and the resonant fields with uncertainties at the 10 different RF frequencies. The resonant magnetic field is found for both $^8$$^7$Rb and $^8$$^5$Rb at RF frequency varying from 10kHz to 100kHz with a step size of 10kHz, and is also plotted versus the RF frequencies. To find the net magnetic field, we took the resonant dip fields subtracted this value by the zero field dip as at the zero field dip the horizontal field is equal to the Earth's magnetic field leaving net field as zero. Table.\ref{data2} shows these new zeroed fields. Using this data, we plotted the new variables in Fig. \ref{both} where it clearly shows the positive linear relationship of the resonant magnetic field and RF frequencies. \\
+Table.\ref{data} in the appendix shows the positions of all the dips and the resonant fields with uncertainties at the 10 different RF frequencies. The resonant magnetic field is found for both $^8$$^7$Rb and $^8$$^5$Rb at RF frequency varying from 10kHz to 100kHz with a step size of 10kHz, and is also plotted versus the RF frequencies. To find the true resonant fields, the difference between the zero field dips and the resonant dips is calculated and recorded. Table.\ref{data2} shows these new zeroed fields. Using this data, we plotted the new variables in Fig. \ref{both} where it clearly shows the positive linear relationship of the resonant magnetic field and RF frequencies. \\
 
 
 \begin{figure}[h]
@@ -181,20 +182,23 @@ B=\frac{h}{g_{F}\mu_{0}}\nu
 where B is the the resonant magnetic field and $\nu$ is the RF frequency. And it is easy to see that they have a linear relationship. $g_{F}$ can be calculate from the slope of the fit line:
 
 \begin{equation}
-g_{F}=\frac{\mu_{0}}{h} \times \frac{1}{\textrm{Slope}}
+g_{F}=\frac{\mu_{0}}{h} \times \frac{1}{\textrm{Slope}}=0.51\pm0.0004 \textrm{ for } ^{87}Rb \textrm{ and } 0.34\pm0.0002 \textrm{ for } ^{85}Rb
 \label{gf}
 \end{equation}
 
-$g_{F}$ is found to be $0.51\pm0.0004$ for $^8$$^7$Rb and $0.34\pm0.0002$ for $^8$$^5$Rb where the expected values are 1/2 and 1/3. Even though the two expected values are not within the uncertainties of our experimental results, we can see that our values are extremely close to the theoretical value.
 
 %____________Conclusion____________________________________________
 \section{Conclusion}
+In this experiment, $g_{F}$ is found to be $0.51\pm0.0004$ for $^8$$^7$Rb and $0.34\pm0.0002$ for $^8$$^5$Rb where the expected values are 1/2 and 1/3. Even though the two expected values are not within the uncertainties of our experimental results, we can see that our values are extremely close to the theoretical value.\\
 
-\textcolor{green}{your message here?}
+This experiment could be improved by creating a less magnetically noisy environment. Our experiment was done in a room full of other apparatus and meters, all of which have iron component. Therefore the environmental magnetic field might have influenced our results. Another potential improvement is to align the optical pumping apparatus better with the Earth's magnetic field. We tried to align the apparatus with the compass by inspection. However, the compass was experiencing disturbance when it was close to the apparatus. Therefore our apparatus might not be perfectly aligned, which would introduce an additional magnetic field factor due to the Earth's field into our calculation. \\
+
 
 %\clearpage
 
 %\vspace*{-2.5cm}
+
+%______________Appendix____________________________________________
 \section{Appendix}
 %\vspace*{-1.5cm}
 \begin{table}[h]
