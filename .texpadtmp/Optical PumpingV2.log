@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  15 DEC 2014 17:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 DEC 2014 10:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -293,184 +293,182 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-<energylevels.jpg, id=21, 388.45125pt x 344.03531pt>
+[4] <energylevels.jpg, id=29, 388.45125pt x 344.03531pt>
 File: energylevels.jpg Graphic file (type jpg)
  <use energylevels.jpg>
-Package pdftex.def Info: energylevels.jpg used on input line 77.
+Package pdftex.def Info: energylevels.jpg used on input line 82.
 (pdftex.def)             Requested size: 284.52756pt x 251.99936pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
+Underfull \hbox (badness 10000) in paragraph at lines 89--90
 
  []
 
 [5 <./energylevels.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
-<exp.jpg, id=32, 879.285pt x 448.074pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--98
+
+ []
+
+<exp.jpg, id=34, 879.285pt x 448.074pt>
 File: exp.jpg Graphic file (type jpg)
  <use exp.jpg>
-Package pdftex.def Info: exp.jpg used on input line 96.
+Package pdftex.def Info: exp.jpg used on input line 101.
 (pdftex.def)             Requested size: 455.24408pt x 231.9811pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
-[6 <./exp.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-<100k.png, id=40, 1945.45769pt x 607.57516pt>
-File: 100k.png Graphic file (type png)
- <use 100k.png>
-Package pdftex.def Info: 100k.png used on input line 124.
-(pdftex.def)             Requested size: 426.79134pt x 133.28683pt.
- <20k.png, id=41, 1946.472pt x 604.53221pt>
-File: 20k.png Graphic file (type png)
- <use 20k.png>
-Package pdftex.def Info: 20k.png used on input line 125.
-(pdftex.def)             Requested size: 426.79134pt x 132.5455pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-[8 <./100k.png (PNG copy)> <./20k.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-[9] <gau.png, id=48, 1380.15625pt x 795.97375pt>
-File: gau.png Graphic file (type png)
- <use gau.png>
-Package pdftex.def Info: gau.png used on input line 158.
-(pdftex.def)             Requested size: 455.24408pt x 262.55069pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
-
- []
-
-<slopegraph.png, id=49, 1297.30989pt x 751.608pt>
-File: slopegraph.png Graphic file (type png)
- <use slopegraph.png>
-Package pdftex.def Info: slopegraph.png used on input line 170.
-(pdftex.def)             Requested size: 455.24408pt x 263.75485pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-[10 <./gau.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+[7 <./exp.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--120
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+<100k.png, id=42, 1945.45769pt x 607.57516pt>
+File: 100k.png Graphic file (type png)
+ <use 100k.png>
+Package pdftex.def Info: 100k.png used on input line 129.
+(pdftex.def)             Requested size: 426.79134pt x 133.28683pt.
+ <20k.png, id=43, 1946.472pt x 604.53221pt>
+File: 20k.png Graphic file (type png)
+ <use 20k.png>
+Package pdftex.def Info: 20k.png used on input line 130.
+(pdftex.def)             Requested size: 426.79134pt x 132.5455pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
+
+ []
+
+[9 <./100k.png (PNG copy)> <./20k.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
+
+ []
+
+<gau.png, id=50, 1380.15625pt x 795.97375pt>
+File: gau.png Graphic file (type png)
+ <use gau.png>
+Package pdftex.def Info: gau.png used on input line 163.
+(pdftex.def)             Requested size: 455.24408pt x 262.55069pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+[10 <./gau.png>] <slopegraph.png, id=54, 1297.30989pt x 751.608pt>
+File: slopegraph.png Graphic file (type png)
+ <use slopegraph.png>
+Package pdftex.def Info: slopegraph.png used on input line 175.
+(pdftex.def)             Requested size: 455.24408pt x 263.75485pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
 [11 <./slopegraph.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 207--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+[12]
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[12] [13]
-Underfull \hbox (badness 1024) in paragraph at lines 275--276
+[13] [14]
+Underfull \hbox (badness 1024) in paragraph at lines 280--281
 []\OT1/cmr/m/n/10.95 Welcome to the Uni-ver-sity of Min-nesota Meth-ods of Ex-per-i-men-tal Physics Lab-o-ra-tory,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 275--276
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 \OT1/cmr/m/n/10.95 http://spa-mxpweb.spa.umn.edu/s11/Projects/S11[]OpticalPumping/apparatus.html,\OT1/cmr/m/it/10.95 Optical
  []
 
 
-Overfull \hbox (54.75447pt too wide) in paragraph at lines 276--277
+Overfull \hbox (54.75447pt too wide) in paragraph at lines 281--282
 []\OT1/cmr/m/n/10.95 Optical Pump-ing, http://internal.physics.uwa.edu.au/ stamps/2006Y3Lab/SteveAndBlake/theoretical.html 
  []
 
 No file "Optical PumpingV2".bbl.
-[14] (/Users/nfortune/GitHub/PHY350-2014-Fall/Optical_Pumping/.texpadtmp/Optical PumpingV2.aux)
+[15] (/Users/nfortune/GitHub/PHY350-2014-Fall/Optical_Pumping/.texpadtmp/Optical PumpingV2.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4329 strings out of 493117
- 58311 string characters out of 6135433
- 137170 words of memory out of 5000000
- 7726 multiletter control sequences out of 15000+600000
+ 4331 strings out of 493117
+ 58329 string characters out of 6135433
+ 137171 words of memory out of 5000000
+ 7728 multiletter control sequences out of 15000+600000
  12084 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,32p,1947b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "/Users/nfortune/GitHub/PHY350-2014-Fall/Optical_Pumping/.texpadtmp/Optical PumpingV2.pdf" (14 pages, 1992146 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "/Users/nfortune/GitHub/PHY350-2014-Fall/Optical_Pumping/.texpadtmp/Optical PumpingV2.pdf" (15 pages, 2011291 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
- 72 compressed objects within 1 object stream
+ 119 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

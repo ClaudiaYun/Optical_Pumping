@@ -55,6 +55,11 @@ E_{z}=g_{F} \mu_{0} BM
 
 Where $E_{z}$ is the Zeeman energy, the energy difference between two different $M$ levels, B is the external magnetic field strength, and $\mu_{0}$ is the Bohr magneton. From Eq. \eqref{zeeman} it can be seen that $E_{z}$ is linearly proportional to $B$. By changing the RF signal, which will match $E_{z}$, and the magnetic field $B$, we could find out the coupling constant $g_{F}$ for Rubidium.\\
 
+\textcolor{blue}{this suggests that the fractional uncertainty in g will depend on the fractional uncertainties in B and in E}: $ \frac{\delta g}{g} = \sqrt{{\left( \frac{\delta B}{B}\right)}^2 + {\left( \frac{\delta f_{RF}}{f_{RF}}\right)}^2}$ \textcolor{blue}{based on equation 7}
+
+\textcolor{magenta}{are you sure this calculation of uncertainty gives you a fractional uncertainty in g of only 0.0001 (0.01 \%)? That would require knowing both B and f to better than 0.01 \%! How small a fractional change in frequency is possible using this oscillator? What about the factor of 30 in conversion from V to I for the magnet coil? Do you know that to 0.01\%?  And how well do you think you corrected for the zero field offset of approximately 0.2 Gauss (20 microtesla)? Isn't that on the order of your maximum horizontal magnet field in Fig 5? I recommend giving this a closer look so you can come  up with an more accurate estimate of uncertainty in g. This is important, because your deviation in gF for 85Rb is just 3\% (compared to theory) and your deviation for 87Rb is 2\%. A 1\% error in the zero field offset correction plus a 1\% error in the I to V conversion factor (approximately 30?) would give a 2\% error in B just by themselves. } 
+
+
 \begin{equation}
 \mu_{0}=\frac{e\hbar}{2m_{e}}=9.27\times10^{-24} J/T
 \label{mu0}
