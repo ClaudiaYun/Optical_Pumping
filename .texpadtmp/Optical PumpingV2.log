@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 DEC 2014 10:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 DEC 2014 10:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -439,17 +439,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 210--211
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13] [14]
-Underfull \hbox (badness 1024) in paragraph at lines 280--281
+Underfull \hbox (badness 1024) in paragraph at lines 281--282
 []\OT1/cmr/m/n/10.95 Welcome to the Uni-ver-sity of Min-nesota Meth-ods of Ex-per-i-men-tal Physics Lab-o-ra-tory,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 \OT1/cmr/m/n/10.95 http://spa-mxpweb.spa.umn.edu/s11/Projects/S11[]OpticalPumping/apparatus.html,\OT1/cmr/m/it/10.95 Optical
  []
 
 
-Overfull \hbox (54.75447pt too wide) in paragraph at lines 281--282
+Overfull \hbox (54.75447pt too wide) in paragraph at lines 282--283
 []\OT1/cmr/m/n/10.95 Optical Pump-ing, http://internal.physics.uwa.edu.au/ stamps/2006Y3Lab/SteveAndBlake/theoretical.html 
  []
 
@@ -462,13 +462,13 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  4331 strings out of 493117
  58329 string characters out of 6135433
- 136171 words of memory out of 5000000
+ 137171 words of memory out of 5000000
  7728 multiletter control sequences out of 15000+600000
  12084 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  38i,9n,32p,1947b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "/Users/nfortune/GitHub/PHY350-2014-Fall/Optical_Pumping/.texpadtmp/Optical PumpingV2.pdf" (15 pages, 2012479 bytes).
+Output written on "/Users/nfortune/GitHub/PHY350-2014-Fall/Optical_Pumping/.texpadtmp/Optical PumpingV2.pdf" (15 pages, 2012957 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  80 compressed objects within 1 object stream
