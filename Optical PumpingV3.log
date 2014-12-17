@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 DEC 2014 15:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.5.25)  16 DEC 2014 17:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -238,7 +238,11 @@ Class revtex4-1 Info: cite was not loaded (OK!) on input line 11.
 Class revtex4-1 Info: mcite was not loaded (OK!) on input line 11.
 Class revtex4-1 Info: multicol was not loaded (OK!) on input line 11.
 
-No file "Optical PumpingV3".aux.
+(./Optical PumpingV3.aux
+
+LaTeX Warning: Label `gf' multiply defined.
+
+)
 \openout1 = `"Optical PumpingV3.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
@@ -253,7 +257,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
-(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+ (/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count109
 \scratchdimen=\dimen120
@@ -331,10 +335,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
  []
 
 [1{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `zeeman' on page 2 undefined on input line 50.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
@@ -345,14 +345,6 @@ File: energylevels.jpg Graphic file (type jpg)
 <use energylevels.jpg>
 Package pdftex.def Info: energylevels.jpg used on input line 76.
 (pdftex.def)             Requested size: 284.52756pt x 251.99936pt.
-
-
-Package natbib Warning: Citation `energy' on page 3 undefined on input line 77.
-
-
-
-LaTeX Warning: Reference `energylevels' on page 3 undefined on input line 81.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
@@ -369,27 +361,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 85--86
  []
 
 
-LaTeX Warning: Reference `exp' on page 4 undefined on input line 91.
-
-
-Package natbib Warning: Citation `teach' on page 4 undefined on input line 91.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
-<exp.jpg, id=28, 879.285pt x 448.074pt>
+<exp.jpg, id=27, 879.285pt x 448.074pt>
 File: exp.jpg Graphic file (type jpg)
  <use exp.jpg>
 Package pdftex.def Info: exp.jpg used on input line 95.
 (pdftex.def)             Requested size: 455.24408pt x 231.9811pt.
-
-
-Package natbib Warning: Citation `rib' on page 4 undefined on input line 96.
-
-
-Package natbib Warning: Citation `rib' on page 4 undefined on input line 96.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -429,13 +409,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
 
-<100k.png, id=35, 1945.45769pt x 607.57516pt>
+<100k.png, id=34, 1945.45769pt x 607.57516pt>
 File: 100k.png Graphic file (type png)
  <use 100k.png>
 Package pdftex.def Info: 100k.png used on input line 123.
 (pdftex.def)             Requested size: 426.79134pt x 133.28683pt.
 
-<20k.png, id=36, 1946.472pt x 604.53221pt>
+<20k.png, id=35, 1946.472pt x 604.53221pt>
 File: 20k.png Graphic file (type png)
  <use 20k.png>
 Package pdftex.def Info: 20k.png used on input line 124.
@@ -443,9 +423,6 @@ Package pdftex.def Info: 20k.png used on input line 124.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `100kHz' on page 6 undefined on input line 130.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
@@ -457,30 +434,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
 
-[6]
-
-LaTeX Warning: Reference `vtob' on page 7 undefined on input line 136.
-
-[7 <./100k.png (PNG copy)> <./20k.png (PNG copy)>]
+[6] [7 <./100k.png (PNG copy)> <./20k.png (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
-
-
-LaTeX Warning: Reference `vtob' on page 8 undefined on input line 154.
-
-
-LaTeX Warning: Reference `vtoi' on page 8 undefined on input line 154.
-
-
-LaTeX Warning: Reference `gau' on page 8 undefined on input line 154.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
 
-<gau.png, id=44, 1380.15625pt x 795.97375pt>
+<gau.png, id=43, 1380.15625pt x 795.97375pt>
 File: gau.png Graphic file (type png)
  <use gau.png>
 Package pdftex.def Info: gau.png used on input line 158.
@@ -490,20 +454,11 @@ Package pdftex.def Info: gau.png used on input line 158.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `data' on page 8 undefined on input line 164.
-
-
-LaTeX Warning: Reference `data2' on page 8 undefined on input line 164.
-
-
-LaTeX Warning: Reference `both' on page 8 undefined on input line 164.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
 
-<slopegraph.png, id=45, 1297.30989pt x 751.608pt>
+<slopegraph.png, id=44, 1297.30989pt x 751.608pt>
 File: slopegraph.png Graphic file (type png)
  <use slopegraph.png>
 Package pdftex.def Info: slopegraph.png used on input line 170.
@@ -513,21 +468,11 @@ Package pdftex.def Info: slopegraph.png used on input line 170.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `both' on page 8 undefined on input line 175.
-
-
-LaTeX Warning: Reference `both' on page 8 undefined on input line 175.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-[8]
-
-LaTeX Warning: Reference `zeeman' on page 9 undefined on input line 183.
-
-[9 <./gau.png>]
+[8] [9 <./gau.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
@@ -542,8 +487,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 204--205
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11] [12]
-
-LaTeX Warning: Reference `LastBibItem' on page 13 undefined on input line 274.
+Underfull \hbox (badness 1024) in paragraph at lines 277--278
+[]\OT1/cmr/m/n/10.95 Welcome to the Uni-ver-sity of Min-nesota Meth-ods of Ex-p
+er-i-men-tal Physics Lab-o-ra-tory,
+ []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 277--278
@@ -552,57 +499,44 @@ ng/apparatus.html,\OT1/cmr/m/it/10.95 Optical
  []
 
 
-Overfull \hbox (59.76006pt too wide) in paragraph at lines 278--279
+Overfull \hbox (54.75447pt too wide) in paragraph at lines 278--279
 []\OT1/cmr/m/n/10.95 Optical Pump-ing, http://internal.physics.uwa.edu.au/ stam
 ps/2006Y3Lab/SteveAndBlake/theoretical.html 
  []
 
 No file "Optical PumpingV3".bbl.
+[13] (./Optical PumpingV3.aux)
 
-Package natbib Warning: There were undefined citations.
-
-[13] (./Optical PumpingV3.aux
-
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right .
-
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4330 strings out of 493117
- 57843 string characters out of 6135433
- 137827 words of memory out of 5000000
- 7729 multiletter control sequences out of 15000+600000
- 12700 words of font info for 48 fonts, out of 8000000 for 9000
+ 4329 strings out of 493117
+ 57853 string characters out of 6135433
+ 138167 words of memory out of 5000000
+ 7727 multiletter control sequences out of 15000+600000
+ 12084 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,33p,1216b,399s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,9n,32p,1216b,391s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
-usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
-r/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
-ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
-2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2
-014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on "Optical PumpingV3.pdf" (13 pages, 2018031 bytes).
+</usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "Optical PumpingV3.pdf" (13 pages, 2010137 bytes).
 PDF statistics:
- 117 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 113 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
