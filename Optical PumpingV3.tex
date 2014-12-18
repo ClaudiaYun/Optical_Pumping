@@ -29,7 +29,7 @@
 \begin{abstract}
 
 
-When an external static magnetic field is applied to an atom, the hyperfine energy levels of the atom split, with spacing proportional to the magnitude of that field. This is called the Zeeman effect. Optical pumping of Rubidium is used in this experiment to examine this effect. A circularly polarized laser beam with wavelength of 794.8 nm was directed through Rubidium vapor surrounded by Helmholtz coils in all three dimensions, and detected by a photodiode. A radio frequency (RF) signal was applied to the Rb vapor. When changing the magnitude of the magnetic field created by the Helmholtz coil, the opacity of the Rb vapor would have a sudden increase when the external field was in resonance with the RF signal due to a stronger absorption. Varying the RF signal, we observed a change in the magnitude of the resonant field. From the relationship between the signal and the field, the Lande g-factor was determined for $^8$$^5$Rb, $g_{85}=0.34\pm0.0002$, and $^8$$^7$Rb, $g_{87}=0.51\pm0.0004$, whose theoretical values are 1/3 and 1/2 respectively. \\
+When an external static magnetic field is applied to an atom, the hyperfine energy levels of the atom split, with spacing proportional to the magnitude of that field. This is called the Zeeman effect. Optical pumping of Rubidium is used in this experiment to examine this effect. A circularly polarized laser beam with wavelength of 794.8 nm was directed through Rubidium vapor surrounded by Helmholtz coils in all three dimensions, and detected by a photodiode. A radio frequency (RF) signal was applied to the Rb vapor. When changing the magnitude of the magnetic field created by the Helmholtz coil, the opacity of the Rb vapor would have a sudden increase when the external field was in resonance with the RF signal due to a stronger absorption. Varying the RF signal, we observed a change in the magnitude of the resonant field. From the relationship between the signal and the field, the Lande g-factor was determined for $^8$$^5$Rb, $g_{85}=0.34\pm0.02$, and $^8$$^7$Rb, $g_{87}=0.51\pm0.02$, which are consistent with theoretical values of 1/3 and 1/2 respectively. \\
 
 \end{abstract}
 
@@ -48,11 +48,6 @@ E_{z}=g_{F} \mu_{0} BM
 \end{equation}
 
 Where $E_{z}$ is the Zeeman energy, the energy difference between two different $M$ levels, B is the external magnetic field strength, and $\mu_{0}$ is the Bohr magneton. From Eq. \eqref{zeeman} it can be seen that $E_{z}$ is linearly proportional to $B$. By changing the RF signal, which will match $E_{z}$, and the magnetic field $B$, we could find out the coupling constant $g_{F}$ for Rubidium.\\
-
-\textcolor{blue}{this suggests that the fractional uncertainty in g will depend on the fractional uncertainties in B and in E}: $ \frac{\delta g}{g} = \sqrt{{\left( \frac{\delta B}{B}\right)}^2 + {\left( \frac{\delta f_{RF}}{f_{RF}}\right)}^2}$ \textcolor{blue}{based on equation 7}
-
-\textcolor{magenta}{are you sure this calculation of uncertainty gives you a fractional uncertainty in g of only 0.0001 (0.01 \%)? That would require knowing both B and f to better than 0.01 \%! How small a fractional change in frequency is possible using this oscillator? What about the factor of 30 in conversion from V to I for the magnet coil? Do you know that to 0.01\%?  And how well do you think you corrected for the zero field offset of approximately 0.2 Gauss (20 microtesla)? Isn't that on the order of your maximum horizontal magnet field in Fig 5? I recommend giving this a closer look so you can come  up with an more accurate estimate of uncertainty in g. This is important, because your deviation in gF for 85Rb is just 3\% (compared to theory) and your deviation for 87Rb is 2\%. A 1\% error in the zero field offset correction plus a 1\% error in the I to V conversion factor (approximately 30?) would give a 2\% error in B just by themselves. } 
-
 
 \begin{equation}
 \mu_{0}=\frac{e\hbar}{2m_{e}}=9.27\times10^{-24} J/T
@@ -106,8 +101,6 @@ The left side of the optical rail measures the intensity of light passing throug
 
 In the beginning of the experiment, we removed the quarter wave retarder and the linear polarizer to align the setup by moving the filters and focusing lenses so that the photodiode voltage reading is maximum. Then we put back two linear polarizers, one at either side of the cell, and aligned the two polarizers at 90$^{\circ}$ so that the photodiode voltage reads zero. The quarter wave retarded was then added back and rotated until the photodiode voltage reads a maximum value.\\
 
-%When there is zero field applied by the coils, we know the Earth's magnetic field will have an influence on the Zeeman splitting by allowing atoms to be pumped into the less absorbent stats. So to take into consideration this zero field,
-
 The Earth has a non-zero magnetic field, which would affect Zeeman splitting, therefore we want it to be minimized. We first oriented the apparatus so that the light beam passing through the rubidium cell was aligned along the north-south axis to cancel out the local component of the Earth's magnetic field. The set of vertical Helmholtz coils were used to cancel the vertical component of the earth's field. Now all is left is the horizontal component of the Earth's magnetic field that will be in the opposite direction of the current in the horizontal Helmholtz coils (along the axis of the path of light).When the net field at the cell is zero (applied field and Earth's field are equal and opposite), the Zeeman levels become degenerate and we can no longer pump the atoms into less absorbing states, thus we see a district dip in the line of the oscilloscope in the y-axis connected to the photodiode.\\
 
 Now the apparatus is properly set up, 10 sets of data for the RF frequency ranging from 10 to 100 kHz are taken, in increments of 10kHz. For each data set, the horizontal magnetic field sweep is set so that the time was 100 second, range was at 4.4 and start field at 2 on the nob.This way we could fit all the dips on the scale at all 10 different frequencies.\\
@@ -122,7 +115,7 @@ A series of plots of photodiode voltage versus horizontal sweep voltage are obta
 \centering
 \includegraphics[width=15cm]{100k.png}
 \includegraphics[width=15cm]{20k.png}
-\caption{Photodiode voltage versus horizontal recorder output voltage at 100 kHz (top) and 20kHz (bottom). The left trough is the zero field resonance, the middle trough is RF absorption for $^8$$^7$Rb and the right trough is for $^8$$^5$Rb. It is evident that at a higher frequency there is larger  distances between the dips. \textcolor{green}{very nice figure!}}
+\caption{Photodiode voltage versus horizontal recorder output voltage at 100 kHz (top) and 20kHz (bottom). The left trough is the zero field resonance, the middle trough is RF absorption for $^8$$^7$Rb and the right trough is for $^8$$^5$Rb. It is evident that at a higher frequency there is larger  distances between the dips.}
 \label{100kHz}
 \end{figure}
 
@@ -134,7 +127,7 @@ The different depth of the dips are caused by different amounts of $^8$$^7$Rb an
 %____________Discussion____________________________________________
 \section{Discussion}
 Voltage is recorded for the horizontal sweep field, but it needs to be converted to magnetic field strength to be useful. The conversion in the unit of Gauss is given by eq.\ref{vtob}
-%\vspace*{-0.25cm}
+
 \begin{equation}
 B_{\textnormal{sweep}}=8.991\times10^{-3} I N R_{coil}^{-1}
 \label{vtob}
@@ -143,13 +136,11 @@ B_{\textnormal{sweep}}=8.991\times10^{-3} I N R_{coil}^{-1}
 where
 \vspace*{-0.5cm}
 \begin{equation}
-I=\frac{V_{\textnormal{sweep}}/{\textrm{Gain}}}{R}
+I=\frac{V_{\textnormal{sweep}}/{G}}{R}
 \label{vtoi}
 \end{equation}
 
-\textcolor{blue}{The use of words ``Gain'' and ``slope''  rather than symbols such as ``G'' or ``m'' is non-conventional but is OK here if you think it helps avoid confusion with ``g'' and ``M''. Spelling out ``Slope'' would probably be rejected by an actual journal, but it does look better than when it was in italics! } 
-
-$N=11$ is the number of wires wrapped on each side and$R_{coil}=0.1639m$ is the average radius of the loop. Gain is 1 in this experiment and R is the recorder output resistance, which is $30 \Omega$. This is calculated by taking the voltage across the sensor resistor labeled "recorder output" on the horizontal magnetic field sweep on the optical pumping instrument and the monitor voltage, both of which measure the same current passing through the coils. The sweep field voltage is 30 times larger than the monitor voltage, and it is given that the monitor has a sensor resistance of $1 \Omega$. Using Ohm's law of $V=IR$, the resistance of the recorder output is easily found to be $30 \pm ? \Omega $. \textcolor{red}{insert precision in knowledge of \textit{R} here}\\
+$N=11$ is the number of wires wrapped on each side and$R_{coil}=0.1639m$ is the average radius of the loop. G represent gain, which is 1 in this experiment and R is the recorder output resistance, which is $30 \Omega$. This is calculated by taking the voltage across the sensor resistor labeled "recorder output" on the horizontal magnetic field sweep on the optical pumping instrument and the monitor voltage, both of which measure the same current passing through the coils. The sweep field voltage is 30 times larger than the monitor voltage, and it is given that the monitor has a sensor resistance of $1 \Omega$. Using Ohm's law of $V=IR$, the resistance of the recorder output is easily found to be $30 \pm 1.4 \Omega $. \
 
 After converting all the initial voltage values to Gauss using eq.\ref{vtob} and eq.\ref{vtoi}, the x-axis value for all 10 graphs are replaced by the new values in the unit of Gauss. An example of this plot is shown in Fig.\ref{gau}. For all three dips in each graph, a gaussian curve fit is used to find the horizontal field value at the minimum point of the dip. From here, we record the zero field, resonant field for $^8$$^7$Rb and resonant field for $^8$$^5$Rb at all 10 different RF frequencies.\\
 
@@ -163,10 +154,56 @@ After converting all the initial voltage values to Gauss using eq.\ref{vtob} and
 
 Table.\ref{data} in the appendix shows the positions of all the dips and the resonant fields with uncertainties at the 10 different RF frequencies. The resonant magnetic field is found for both $^8$$^7$Rb and $^8$$^5$Rb at RF frequency varying from 10kHz to 100kHz with a step size of 10kHz, and is also plotted versus the RF frequencies. To find the true resonant fields, the difference between the zero field dips and the resonant dips is calculated and recorded. Table.\ref{data2} shows these new zeroed fields. Using this data, we plotted the new variables in Fig. \ref{both} where it clearly shows the positive linear relationship of the resonant magnetic field and RF frequencies. \\
 
+\begin{table}[h]
+\centering
+\caption{Optical pumping resonance field data}
+\begin{ruledtabular}
+\begin{tabular}{ l c c c}
+RF & Zero Field Dip & Rb87 Dip & Rb85 Dip\\
+(kHz) & (Gauss) & (Gauss) & (Gauss)\\
+\hline
+100 & -0.11072$\pm$0.00000748 & 0.028362$\pm$0.00000648 & 0.098161$\pm$0.00000512\\
+90 &-0.11074$\pm$0.00000751 &0.0.014205$\pm$0.00000764 &0.076429$\pm$0.00000637\\
+80 &-0.11112$\pm$0.00000878 &0.00017474$\pm$0.00000669 &0.055776$\pm$0.00000433\\
+70 &-0.11056$\pm$0.0000116 &-0.013514$\pm$0.00000872 &0.034854$\pm$0.0000054\\
+60 &-0.11059$\pm$0.00001 &-0.027354$\pm$0.00000858 &0.013929$\pm$0.0000065\\
+50 &-0.11086$\pm$0.0000124 &-0.041361$\pm$0.00000849 &-0.0065838$\pm$0.00000626\\
+40 &-0.11082$\pm$0.0000122 &-0.055245$\pm$0.00000943 &-0.027583$\pm$0.00000667\\
+30 &-0.11091$\pm$0.0000122 &-0.069241$\pm$0.0000111 &-0.048597$\pm$0.00000707\\
+20 &-0.11177$\pm$0.0000114 &-0.084233$\pm$0.0000119 &-0.070356$\pm$0.00000881\\
+10 &-0.11183$\pm$0.0000114 &-0.098259$\pm$0.0000296 &-0.091215$\pm$0.0000106\\
+\end{tabular}
+\end{ruledtabular}
+\label{data}
+\end{table}
+
+
+\begin{table}[h]
+\centering
+\caption{Optical pumping resonance field data (continued)}
+\begin{ruledtabular}
+\begin{tabular}{ l c c}
+RF & RB87 Resonant Field & RB85 Resonant Field\\
+(kHz) & (Gauss) & (Gauss)\\
+\hline
+100 & 0.139082$\pm$0.00001340 & 0.208881$\pm$0.0000126\\
+90 & 0.124944$\pm$0.0000152 & 0.187169$\pm$0.0000139\\
+80 & 0.1112947$\pm$0.0000155 & 0.166896$\pm$0.0000131\\
+70 & 0.097046$\pm$0.0000203 & 0.145414$\pm$0.000017\\
+60 & 0.083236$\pm$0.0000186 & 0.124519$\pm$0.0000165\\
+50 & 0.069499$\pm$0.0000209 & 0.104276$\pm$0.0000187\\
+40 & 0.055575$\pm$0.0000216 & 0.083237$\pm$0.0000189\\
+30 & 0.041669$\pm$0.0000233 & 0.062313$\pm$0.0000193\\
+20 &	0.027537$\pm$0.0000233 & 0.041414$\pm$0.0000202\\
+10 &	0.013571$\pm$0.000041 & 0.020615$\pm$0.0000220\\
+\end{tabular}
+\end{ruledtabular}
+\label{data2}
+\end{table}
+
 
 \begin{figure}[h]
 \centering
-%\includegraphics[width=16cm]{both.png}
 \includegraphics[width=16cm]{slopegraph.png}
 \caption{Horizontal magnetic field strength in resonance vs. RF frequency. It is evident that there is a positive linearly proportional relationship between the RF frequency and the resonance field strength. }
 \label{both}
@@ -186,81 +223,22 @@ B=\frac{h}{g_{F}\mu_{0}}\nu
 \label{bandf}
 \end{equation}
 
-where B is the the resonant magnetic field and $\nu$ is the RF frequency. And it is easy to see that they have a linear relationship. $g_{F}$ can be calculate from the slope of the fit line:
+where B is the the resonant magnetic field and $\nu$ is the RF frequency. And it is easy to see that they have a linear relationship. $g_{F}$ can be calculate from the slope of the fit line, $m$:
 
 \begin{equation}
-g_{F}=\frac{\mu_{0}}{h} \times \frac{1}{\textrm{Slope}}=0.51\pm0.0004 \textrm{ for } ^{87}Rb \textrm{ and } 0.34\pm0.0002 \textrm{ for } ^{85}Rb
+g_{F}=\frac{h}{\mu_{0}} \times \frac{1}{m}=0.51\pm0.02 \textrm{ for } ^{87}Rb \textrm{ and } 0.34\pm0.02 \textrm{ for } ^{85}Rb
 \label{gf}
 \end{equation}
+
+The uncertainty of $g_{F}$ is dominated by the error in recorder output resistance in Eq. \ref{vtoi}. The uncertainty of each resonant field and the slopes of the fit lines are both on the order of magnitude of $0.1\%$, but the recorder output resistance has an error of $4.7\%$. Since other quantities involved in finding $g_{F}$ have no or unknown uncertainty, e.g. N in Eq. \ref{vtob} does not have an error and RF signal has unknown error because it is output by a function generator, the error in R is used as the uncertainty of the $g_{F}$ values.\\
 
 
 %____________Conclusion____________________________________________
 \section{Conclusion}
 
-In this experiment, $g_{F}$ is found to be $0.51\pm0.0004$ for $^8$$^7$Rb and $0.34\pm0.0002$ for $^8$$^5$Rb where the expected values are 1/2 and 1/3. Even though the two expected values are not within the uncertainties of our experimental results \textcolor{blue}{as noted earlier, I am not sure that is the case. I'm not convinced that your precision is to within 0.01\%}, we can see that our values are \textcolor{red}{extremely close} to the theoretical value.
-
-\textcolor{red}{``Extremely close'' is unncessarily vague. be specific. What is the percent deviation between theory and your results?}\\
+In this experiment, $g_{F}$ is found to be $0.51\pm0.02$ for $^8$$^7$Rb and $0.34\pm0.02$ for $^8$$^5$Rb where the expected values are 1/2 and 1/3. The experimental values agree with the theoretical values within uncertainty. \\
 
 This experiment could be improved by creating a less magnetically noisy environment. Our experiment was done in a room full of other apparatus and meters, all of which have iron component. Therefore the environmental magnetic field might have influenced our results. Another potential improvement is to align the optical pumping apparatus better with the Earth's magnetic field. We tried to align the apparatus with the compass by inspection. However, the compass was experiencing disturbance when it was close to the apparatus. Therefore our apparatus might not be perfectly aligned, which would introduce an additional magnetic field factor due to the Earth's field into our calculation. \\
-
-
-%\clearpage
-
-%\vspace*{-2.5cm}
-
-%______________Appendix____________________________________________
-\section{Appendix}
-%\vspace*{-1.5cm}
-\textcolor{blue}{Are you sure you don't mean ``Tesla'' rather than ``Gauss'' in the table below?  Earth's field is on the order of 0.5 Gauss, or 50 microtesla. The horizontal component which you correct for should be on the order of half of that value, or approximately 0.25 G or 24 microtesla. As a result, this table would make a lot more sense if the zero field dip were 33 microtesla rather than 33 microGauss! See also your Figure 5, where you claim the horizontal magnetic field values (after corrections) range from 0 to 20 microtesla. }  
-\begin{table}[h]
-\centering
-\caption{Optical pumping resonance field data}
-\begin{ruledtabular}
-\begin{tabular}{ l c c c}
-RF & Zero Field Dip & Rb87 Dip & Rb85 Dip\\
-(kHz) & (Gauss) & (Gauss) & (Gauss)\\
-\hline
-100 & -0.33216$\pm$0.000024 & 0.08509$\pm$0.000018 & 0.29449$\pm$0.0000144\\
-90 &-0.33221$\pm$0.0000237 &0.042623$\pm$0.0000209 &0.22929$\pm$0.0000161\\
-80 &-0.33336$\pm$0.0000279 &0.00052957$\pm$0.0000190 &0.16733$\pm$0.0000123\\
-70 &-0.33167$\pm$0.0000333 &-0.040531$\pm$0.0000251 &0.10456$\pm$0.0000151\\
-60 &-0.33178$\pm$0.0000296 &-0.082066$\pm$0.0000236 &0.041789$\pm$0.0000162\\
-50 &-0.33256$\pm$0.0000365 &-0.12408$\pm$0.0000252 &-0.019752$\pm$0.0000186\\
-40 &-0.33227$\pm$0.0000311 &-0.16902$\pm$0.0000325 &-0.082741$\pm$0.0000229\\
-30 &-0.33257$\pm$0.0000325 &-0.20774$\pm$0.0000369 &-0.1458$\pm$0.0000244\\
-20 &-0.33519$\pm$0.0000326 &-0.2527$\pm$0.0000373 &-0.2111$\pm$0.0000293\\
-10 &-0.11183$\pm$0.0000114 &-0.098259$\pm$0.0000296 &-0.091215$\pm$0.0000106\\
-\end{tabular}
-\end{ruledtabular}
-\label{data}
-\end{table}
-
-\textcolor{blue}{I don't understand the units in Table II. are you saying that at 100 kHz, the resonant field for RB87 is }$13.9 \cdot 10^{-3}$ \textcolor{blue}{tesla}, $13.9 \cdot 10^{-6}$ \textcolor{blue}{tesla}, or $13.9 \cdot 10^{-9}$ \textcolor{blue}{tesla? According to Figure 5, the answer is } $13.9 \cdot 10^{-6}$, \textcolor{blue}{but according to this table, it would be}$(13.9 \cdot10^{-3})(1 \cdot10^{-6}) =  13.9 \cdot10^{-9}$   \textcolor{blue}{tesla}.   
-\vspace*{-5cm}
-
-\begin{table}[h]
-\centering
-\caption{Optical pumping resonance field data (continued)}
-\begin{ruledtabular}
-\begin{tabular}{ l c c}
-RF & RB87 Resonant Field & RB85 Resonant Field\\
-(kHz) & (Gauss) & (Gauss)\\
-\hline
-100 & 0.13908$\pm$0.0000128 & 0.208883$\pm$0.000014\\
-90 & 0.124944$\pm$0.0000133 & 0.187167$\pm$0.0000149\\
-80 & 0.111297$\pm$0.0000134 & 0.166897$\pm$0.0000156\\
-70 & 0.097046$\pm$0.0000161 & 0.14541$\pm$0.0000195\\
-60 & 0.083238$\pm$0.0000153 & 0.124523$\pm$0.0000177\\
-50 & 0.069493$\pm$0.0000184 & 0.104269$\pm$0.0000206\\
-40 & 0.054417$\pm$0.000018 & 0.083176$\pm$0.0000212\\
-30 & 0.04161$\pm$0.0000190 & 0.062257$\pm$0.0000231\\
-20 &	0.027497$\pm$0.0000206 & 0.041363$\pm$0.0000233\\
-10 &	0.013542$\pm$0.0000227 & 0.020635$\pm$0.0000384\\
-\end{tabular}
-\end{ruledtabular}
-\label{data2}
-\end{table}
-
 
 \clearpage
 
